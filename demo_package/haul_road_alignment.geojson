@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "properties": {
+    "road_name": "Quarry Access Haul Road",
+    "length_km": 4.2,
+    "site": "Apex Quartz Quarry",
+    "datum": "WGS84",
+    "description": "Engineered haul road alignment shapefile connecting quarry extraction pit to arterial transport route outside the 5 km biodiversity corridor."
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [-74.0060, 40.7128],
+      [-74.0080, 40.7150],
+      [-74.0110, 40.7180],
+      [-74.0150, 40.7220]
+    ]
+  }
+}
+

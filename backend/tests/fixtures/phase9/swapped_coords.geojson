@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Adversarial Swapped Coordinates (Lat/Lon Reversed)" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [40.7128, -74.0060],
+            [40.7150, -74.0060],
+            [40.7150, -74.0010],
+            [40.7128, -74.0010],
+            [40.7128, -74.0060]
+          ]
+        ]
+      }
+    }
+  ]
+}
+

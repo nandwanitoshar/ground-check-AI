@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0A0E11;
+  --foreground: #F0F4F8;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+@theme {
+  --color-obsidian: #0A0E11;
+  --color-charcoal: #11161B;
+  --color-panel: #161D23;
+  --color-panel-border: #222C35;
+  --color-survey-green: #10B981;
+  --color-survey-dark: #059669;
+  --color-cadastre-amber: #F59E0B;
+  --color-cadastre-red: #EF4444;
+  --color-blueprint-blue: #0284C7;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Precision Drafting / Architectural Coordinate Grid */
+.drafting-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.drafting-grid-subtle {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Hairline dividers and crosshair registration marks */
+.crosshair-mark {
+  position: relative;
+}
+
+.crosshair-mark::before {
+  content: "+";
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0E11;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222C35;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

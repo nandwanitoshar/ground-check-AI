@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Adversarial Self-Intersecting Bow-tie Polygon" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.010, 40.710],
+            [-74.005, 40.715],
+            [-74.005, 40.710],
+            [-74.010, 40.715],
+            [-74.010, 40.710]
+          ]
+        ]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Excavation Pit Boundary A",
+        "permitted_area_ha": 12.5,
+        "site": "Apex Quartz Quarry",
+        "datum": "WGS84",
+        "description": "Authoritative surveyed extraction perimeter boundary polygon matching permitted 12.5 ha excavation limit."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.008095, 40.71121],
+            [-74.003905, 40.71121],
+            [-74.003905, 40.71439],
+            [-74.008095, 40.71439],
+            [-74.008095, 40.71121]
+          ]
+        ]
+      }
+    }
+  ]
+}
+

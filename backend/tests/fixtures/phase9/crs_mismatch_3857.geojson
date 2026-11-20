@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Adversarial Projected CRS Mismatch (EPSG:3857 in 4326)" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-8238300.0, 4970000.0],
+            [-8238000.0, 4970000.0],
+            [-8238000.0, 4970500.0],
+            [-8238300.0, 4970500.0],
+            [-8238300.0, 4970000.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "startup_health_ms": 4.81,
+  "small_report_5p_s": 0.012,
+  "medium_report_12p_upload_s": 0.037,
+  "medium_report_baseline_verify_s": 0.082,
+  "large_report_50p_s": 0.049,
+  "evidence_upload_s": 0.011,
+  "targeted_reverify_s": 0.053,
+  "decision_package_s": 0.011,
+  "report_generation_s": 0.153,
+  "reproducibility_package_s": 0.131
+}

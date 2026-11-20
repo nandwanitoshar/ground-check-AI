@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Adversarial Zero Area Polygon" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.010, 40.710],
+            [-74.005, 40.710],
+            [-74.002, 40.710],
+            [-74.010, 40.710]
+          ]
+        ]
+      }
+    }
+  ]
+}
